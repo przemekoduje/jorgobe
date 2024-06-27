@@ -1,0 +1,45 @@
+.details{
+    width: 100%;
+    height: 50vh;
+    position: relative;
+    background-color: #EEEEEE;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0 40px;
+
+   
+    h5{
+        position: absolute;
+        left: 40px;
+        top: 50px;
+        font-size: 25px;
+        font-family: "RoslindaleRegular";
+        font-weight: 200;
+        z-index: 1;
+    }
+    .d-content{
+        display: flex;
+
+        .d-columns{
+            display: flex;
+            flex-direction: column;
+            padding: 0 60px;
+
+            .d01, .d02, .d03{
+                font-family: "GtAmericaThin";
+                font-size: 16px;
+                margin-bottom: 30px;
+                text-transform: uppercase;
+            }
+            .d01_desc, .d02_desc, .d03_desc{
+                font-family: "GtAmericaThin";
+                font-size: 16px;
+                margin-bottom: 30px;
+            }
+            
+        }
+
+        
+    }
+}

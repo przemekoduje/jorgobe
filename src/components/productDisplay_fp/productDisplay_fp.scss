@@ -1,0 +1,42 @@
+.productdisplay{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    
+    gap: 15px;
+
+    .display {
+        flex: 1;
+        height: 100%;
+        
+        flex-direction: column;
+        
+        &:nth-of-type(2) {
+                     
+           height: 80%;
+           
+        }
+
+        img{
+            width: 100%;
+            
+            object-fit: cover;
+        }
+        .display-text{
+            display: flex;
+            flex-direction: column;
+            margin-top: 10px;
+            font-family: "GtAmericaThin";
+
+            .text{
+                align-self: flex-start;
+                font-size: 16px;
+            }
+            .price{
+                align-self: flex-end;
+                font-size: 14px;
+            }
+        }
+    }
+    
+}

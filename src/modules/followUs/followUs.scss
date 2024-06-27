@@ -1,0 +1,68 @@
+.followus{
+    position: relative;
+    width: 100vw;
+    height: 100vh;
+    background-color: #f3f3f1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    
+    h5{
+        position: absolute;
+        left: 40px;
+        top: 50px;
+        font-size: 25px;
+        font-family: "RoslindaleRegular";
+        font-weight: 200;
+        z-index: 2;
+    }
+    h1{
+        font-family: "RoslindaleExtraLight";
+        font-size: 110px;
+        font-weight: 200;
+        z-index: 2;
+    }
+    button{
+        margin-top: 30px;
+    }
+    .images{
+        
+
+        .imgOne{
+            position: absolute;
+            left: 40px;
+            top: 40%;
+        }
+        .imgTwo{
+            position: absolute;
+            left: 250px;
+            top: 30%;
+        }
+        .imgThree{
+            position: absolute;
+            left: 300px;
+            top: 100px;
+        }
+        .imgFour{
+            position: absolute;
+            right: 40px;
+            top: 100px;
+        }
+        .imgFive{
+            position: absolute;
+            right: 30px;
+            top: 45%;
+        }
+        .imgSix{
+            position: absolute;
+            right: 20%;
+            bottom: 40px;
+        }
+        .imgSeven{
+            position: absolute;
+            left: 300px;
+            bottom: 0;
+        }
+    }
+}

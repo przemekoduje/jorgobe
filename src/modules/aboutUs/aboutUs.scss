@@ -1,0 +1,106 @@
+.aboutus{
+    position: relative;
+    width: 100vw;
+    height: 100vh;
+    
+
+    h5{
+        position: absolute;
+        left: 40px;
+        top: 50px;
+        font-size: 25px;
+        font-family: "RoslindaleRegular";
+        font-weight: 200;
+        z-index: 1;
+    }
+
+
+    .au-content{
+        position: relative;
+        width: 100%;
+        height: 100%;
+        display: flex;
+        
+        .left{
+            flex: 1;
+            
+            background-color: #D1CBBF;
+
+        }
+        .right{
+            flex: 1;
+            
+            img{
+                width: 100%;
+                height: 100%;
+                object-fit: cover;
+            }
+
+        }
+        .list{
+            position: absolute;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+            padding: 80px 0;
+            left: 50%;
+            top: 50%;
+            height: 100%;
+            transform: translate(-50%, -50%);
+            
+
+            .head{
+
+
+                h1{
+                font-family: "RoslindaleExtraLight";
+                font-weight: 200;
+                font-size: 52px;
+
+                span{
+                    color: #D1CBBF;
+                }
+             
+                }
+                
+            }
+        }
+        .items{
+            display: flex;
+            flex-direction: column;
+            padding: 0 30px;
+            justify-content: space-around;
+            align-items: center;
+            gap: 30px;
+            
+
+            .item{
+                display: flex;
+                justify-content: space-around;
+                align-items: center;
+                // gap: 50px;
+                width: 100%;
+
+                h1{
+                    font-family: "RoslindaleExtraLight";
+                    font-size: 110px;
+                    align-self: flex-end;
+                    
+                }
+
+
+                .text{
+                    display: flex;
+                    flex-direction: column;
+                    font-family: "GtAmericaThin";
+                    color: #D1CBBF;
+                    gap: 5px;
+                    
+                }
+            }
+        }
+
+    }
+
+    
+}

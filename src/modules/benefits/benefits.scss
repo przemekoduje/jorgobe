@@ -1,0 +1,63 @@
+.benefits{
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    background-color: #F3F3F3;
+
+    h5{
+        position: absolute;
+        left: 40px;
+        top: 50px;
+        font-size: 25px;
+        font-family: "RoslindaleRegular";
+        font-weight: 200;
+        z-index: 1;
+        color: white;
+    }
+    
+    .left{
+        flex: 1;
+        width: 50%;
+
+        img{
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+        }
+    }
+    
+    .right{
+        flex: 1;
+        width: 50%;
+        
+        
+        .wrapper{
+            height: 100%;
+            padding: 0 100px;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+
+            h1{
+                font-family: "RoslindaleRegular";
+                font-size: 52px;
+                font-weight: 200;
+                margin-bottom: 40px;
+            }
+            .b01, .b02, .b03{
+                font-family: "GtAmericaThin";
+                font-size: 16px;
+                margin-bottom: 30px;
+                text-transform: uppercase;
+            }
+            .b01_desc, .b02_desc, .b03_desc{
+                font-family: "GtAmericaThin";
+                font-size: 16px;
+                margin-bottom: 30px;
+            }
+            
+
+        }
+    }
+}

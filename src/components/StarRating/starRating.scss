@@ -1,0 +1,9 @@
+.star-rating {
+    display: flex;
+    align-items: center;
+  
+    .fa-star, .fa-star-half-alt, .fa-star-empty {
+      color: #000000; /* Kolor gwiazdek */
+      margin-right: 5px; /* Odstęp między gwiazdkami */
+    }
+  }

@@ -1,0 +1,28 @@
+.graphicModule{
+    width: 100%;
+    height: 200px;
+    
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    
+    margin-top: 30px;
+    margin-bottom: 40px;
+    padding: 0 40px;
+
+    .wrapper{
+        height: 100%;
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        
+        
+        img{
+            height: 100%;
+        }
+        h1{
+            font-size: 60px;
+        }
+    }
+}

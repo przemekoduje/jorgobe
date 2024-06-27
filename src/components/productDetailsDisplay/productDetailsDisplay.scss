@@ -1,0 +1,40 @@
+.product-details-display{
+    position: relative;
+    width: 100%;
+    height: 100%;
+    display: flex;
+
+    .main-image{
+        height: 100%;
+        width: 100%;
+        
+
+        img{
+            height: 100%;
+            width: 100%;
+            object-fit: cover;
+            transition: all 0.5s ease;
+        }
+    }
+    .thumbnails{
+        position: absolute;
+        left: 50%;
+        transform: translateX(-50%);
+        bottom: 50px;
+        display: flex;
+        gap: 20px;
+
+        img{
+            width: 100px;
+            cursor: pointer;
+            object-fit: cover;
+            border: 1px solid transparent;
+            transition: border 0.3s;
+
+            &.active {
+                border: 1px solid #a7a7a7;
+              }
+        };
+
+    }
+}

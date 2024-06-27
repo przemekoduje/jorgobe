@@ -1,0 +1,76 @@
+.featuredin{
+    position: relative;
+    width: 100vw;
+    height: 40vh;
+    background-color: #D1CBBF;
+    
+
+    h5{
+        position: absolute;
+        left: 40px;
+        top: 50px;
+        font-size: 25px;
+        font-family: "RoslindaleRegular";
+        font-weight: 200;
+    }
+
+    .fi-content {
+        width: 100%;
+        height: 100%;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+
+        
+        .fi-slider{
+            overflow: hidden;
+            width: 100%;
+
+            .fi-slider-inner {
+                display: flex;
+                justify-content: flex-start;
+                width: 400%;
+                transition: transform 0.5s ease-in-out;
+
+                
+                p {
+                    width: 100%; /* Each <p> takes full width of the slider container */
+                    margin: 0;
+                    padding: 250px;
+                    text-align: center;
+                    font-family: "GtAmericaThin";
+                    font-size: 19px;
+                    
+                }
+            }
+        }
+        
+        
+        
+        .fi-ads{
+            position: absolute;
+            bottom: 10%;
+            left: 50%;
+            transform: translateX(-50%);
+            width: 60%;
+            
+            
+          
+            .buttons{
+                display: flex;
+                justify-content: space-between;
+                align-items: center;
+                
+                button{
+                    background-color: transparent;
+                    border: none;
+                    cursor: pointer;
+                }
+            
+           }
+        }
+    
+    }
+
+    
+}

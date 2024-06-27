@@ -1,0 +1,49 @@
+.filter{
+    position: relative;
+    width: 100%;
+    height: 250px;
+    
+    
+    .content{
+        position: absolute;
+        top: 100px;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        padding: 0 40px;
+        
+        h1{
+            font-family: "RoslindaleRegular";
+            font-weight: 300;
+            font-size: 52px;
+            margin-bottom: 20px;
+        }
+
+        .filters{
+            display: flex;
+            align-self: flex-end;
+            gap: 30px;
+
+            .block{
+                display: flex;
+
+                .filter-label{
+                    white-space: nowrap;
+                }
+            }
+            
+            .custom-select{
+                width: 100%;
+                border: none;
+                
+
+                &:focus {
+                    border-color: none;
+                    outline: none;
+                  }
+            }
+            
+        }
+    }
+    
+}

@@ -1,0 +1,64 @@
+.featuredproducts{
+    position: relative;
+    background-color: #f3f3f1;
+    padding: 96px 40px;
+
+    h5{
+        position: absolute;
+        left: 40px;
+        top: 50px;
+        font-size: 25px;
+        font-family: "RoslindaleRegular";
+        font-weight: 200;
+    }
+    .content{
+        width: 100%;
+        ;
+
+        .top{
+
+            position: relative;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            margin-top: 80px;
+
+            .display{
+                font-family: "RoslindaleExtraLight";
+                font-size: 52px;
+                text-align: center;
+                margin-bottom: 80px;
+                z-index: 2;
+            }
+            .images{
+                z-index: 1;
+
+                img{
+                    &.one{
+                        position: absolute;
+                        left: 0;
+                        top: -70px;
+                    }
+                    &.two{
+                        position: absolute;
+                        right: 0;
+                        top: 0;
+                    }
+                    &.three{
+                        position: absolute;
+                        bottom: 30px;
+                        left: 60px;
+                    }
+                    &.four{
+                        position: absolute;
+                        bottom: 0;
+                        right: 50px;
+                    }
+                }
+            }
+        }
+        .bottom{
+            margin-top: 50px;
+        }
+    }
+}

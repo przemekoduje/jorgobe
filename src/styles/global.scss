@@ -1,0 +1,44 @@
+@font-face {
+  font-family: "RoslindaleBlack";
+  src:
+    url("../../public/assets/fonts/Roslindale-DisplayBlack-Testing.woff2")
+      format("woff2"),
+    url("../../public/assets/fonts/Roslindale-DisplayBlack-Testing.woff")
+      format("woff");
+  font-weight: 900;
+  font-style: normal;
+}
+@font-face {
+  font-family: "RoslindaleRegular";
+  src:
+    url("../../public/assets/fonts/Roslindale-DisplayRegular-Testing.woff2")
+      format("woff2"),
+    url("../../public/assets/fonts/Roslindale-DisplayRegular-Testing.woff")
+      format("woff");
+  font-weight: 400;
+  font-style: normal;
+}
+@font-face {
+  font-family: "RoslindaleExtraLight";
+  src:
+    url("../../public/assets/fonts/Roslindale-DisplayExtraLight-Testing.woff2")
+      format("woff2"),
+    url("../../public/assets/fonts/Roslindale-DisplayExtraLight-Testing.woff")
+      format("woff");
+  font-weight: 200;
+  font-style: normal;
+}
+@font-face {
+  font-family: "GtAmericaThin";
+  src: url("../../public/assets/fonts/GT-America-Standard-Thin-Trial.otf")
+    format("opentype");
+  font-weight: 200;
+  font-style: normal;
+}
+.button-global {
+  background-color: transparent;
+  border: none;
+  font-family: "GtAmericaThin";
+  font-size: 16px;
+  
+}
